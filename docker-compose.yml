@@ -1,0 +1,10 @@
+---
+version: "3.8"
+
+services:
+  az-aks:
+    image: azure-cli-aks:latest-test
+    build:
+      dockerfile: Dockerfile
+    tty: true
+
